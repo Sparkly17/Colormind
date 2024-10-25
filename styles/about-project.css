@@ -1,0 +1,242 @@
+.body {
+    width: 1440px;
+}
+
+.banner {
+    height: 745px;
+    background: linear-gradient(to top left, #FF8BBC 19%, #FFCC57 56%, #C5FF49 100%);
+    border-radius: 0 0 20px 20px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.banner-items__logo {
+    width: 1173px;
+    height: 258px;
+    margin-top: 84px;
+}
+
+.banner-items__text {
+    background-color: #fff;
+    border-radius: 13px;
+    width: 458px;
+    height: 63px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.banner-items__text-disctiption {
+    font-size: 25px;
+    font-family: 'Manrope';
+    font-weight: 400
+}
+
+.banner-items {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.concept {
+    padding: 100px 70px; 
+}
+
+.concept-items__idea-title {
+    @font-face {
+        font-family: 'NAMU-1990';
+        src: url("../fonts") format('opentype');
+    }
+    font-family: 'NAMU-1990';
+    font-size: 80px;
+    line-height: 88%;
+}
+
+.concept-items__idea-description {
+    font-size: 30px;
+    font-family: 'Manrope';
+    font-weight: 300
+}
+
+.concept-items__reason-title {
+    @font-face {
+        font-family: 'NAMU-1990';
+        src: url("../fonts") format('opentype');
+    }
+    font-family: 'NAMU-1990';
+    font-size: 80px;
+    line-height: 100%;
+}
+
+.concept-items__idea {
+    display: flex;
+    justify-content: space-between;
+    gap: 348px
+}
+
+.concept-items__reason-description {
+    font-size: 30px;
+    font-family: 'Manrope';
+    font-weight: 300
+}
+
+.concept-items__reason {
+    display: flex;
+    justify-content: space-between;
+    gap: 110px;
+    margin-top: 116px;
+    padding-right: 59px;
+}
+
+.problems {
+    border-radius: 20px;
+    background-color: #FF8BBC;
+    padding: 100px 70px 131px 70px;
+}
+
+.problems-items__title {
+    font-size: 35px;
+    font-family: 'Manrope';
+    font-weight: 600;
+    margin-bottom: 50px;
+}
+
+.problems-items__examples {
+    background-color: #fff;
+    border-radius: 13px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 25px;
+    font-family: 'Manrope';
+    font-weight: 400;
+    padding: 20px 30px;
+    width: fit-content;
+}
+
+.problems-items__row {
+    display: flex;
+    gap: 68px;
+}
+
+.problems-items__rows {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.goal-items {
+    display: flex;
+    justify-content: space-between;
+    gap: 113px;
+    margin-top: 100px;
+    padding-left: 70px;
+    padding-right: 70px;
+}
+
+.goal-items__goal-title {
+    @font-face {
+        font-family: 'NAMU-1990';
+        src: url("../fonts") format('opentype');
+    }
+    font-family: 'NAMU-1990';
+    font-size: 80px;
+    line-height: 88%;
+}
+
+.goal-items__goal-description {
+    font-size: 30px;
+    font-family: 'Manrope';
+    font-weight: 300
+}
+
+.goal-items__element {
+    width: 738px;
+    height: 123px;
+}
+
+.goal-items__button {
+    background-color: #FF8BBC;
+    color: #fff;
+    border-radius: 20px;
+    border: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 25px;
+    font-family: 'Manrope';
+    font-weight: 500;
+    padding: 15px 30px;
+    width: fit-content;
+    margin-top: 50px;
+}
+
+.goal-line {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.footer {
+    border-left: 1px solid #C9C9C9;
+    border-top: 1px solid #C9C9C9;
+    border-right: 1px solid #C9C9C9;
+    border-radius: 20px;
+    width: 1300px;
+    height: 170px;
+    margin-left: 70px;
+    margin-right: 70px;
+}
+
+.footer-items__elements {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-items__elements-logo {
+    margin-right: 50px;
+    width: 147px;
+    height: 34px;
+}
+
+.footer-items__elements-socials {
+    display: flex;
+    gap: 40px;
+    width: 128px;
+    height: 40px;
+}
+
+.footer-items {
+    padding-top: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+    display: flex;
+}
+
+.card {
+    width: 210px;
+    height: 60px;
+    border-radius: 20px;
+    border: 1px solid #C9C9C9;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    font-family: 'Manrope';
+    font-weight: 600;
+    gap: 10px;
+}
+
+.footer-items__elements-cards {
+    display: flex;
+    gap: 20px;
+    margin-left: 204px;
+    margin-right: 51px;
+}
+
+.footer-items__logo-hse {
+    width: 179px;
+    height: 66px;
+}

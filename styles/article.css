@@ -1,0 +1,150 @@
+.header-border {
+    border: 1px solid #C9C9C9;
+}
+
+.body {
+    padding: 0 70px;
+}
+
+.banner {
+    margin-top: 100px;
+    display: flex;
+    gap: 59px;
+    justify-content: space-between;
+}
+
+.banner-items__tag {
+    width: 147px;
+    height: 50px;
+    background-color: #C5FF49;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 20px;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+}
+
+.banner-items__tag-text {
+    font-size: 22px;
+    font-family: 'Manrope';
+    font-weight: 400
+}
+
+.banner-items__title {
+    @font-face {
+        font-family: 'NAMU-1990';
+        src: url("../fonts") format('opentype');
+    }
+    font-family: 'NAMU-1990';
+    font-size: 80px;
+    line-height: 100%;
+}
+
+.banner-items__button-img {
+    padding-left: 110px;
+    padding-top: 52px;
+}
+
+.content {
+    background-color: #F6F6F6;
+    border-radius: 20px;
+    margin-top: 150px;
+    padding: 100px 110px 65px 100px;
+}
+
+.content-lead {
+    background-color: #C5FF49;
+    border-radius: 20px;
+    padding: 40px 64px;
+}
+
+.content-lead__text {
+    font-size: 35px;
+    font-family: 'Manrope';
+    font-weight: 600;
+    text-align: center;
+}
+
+.content-explanation {
+    margin-top: 80px;
+}
+
+.content-explanation__title{
+    font-size: 50px;
+    font-family: 'Manrope';
+    font-weight: 600;
+    margin-bottom: 40px;
+}
+
+.content-explanation__items-title {
+    font-size: 25px;
+    font-family: 'Manrope';
+    font-weight: 700;
+}
+
+.content-explanation__items-elements {
+    display: flex;
+    gap: 15px;
+}
+
+.content-explanation__items-text {
+    font-size: 20px;
+    font-family: 'Manrope';
+    font-weight: 400;
+    margin-top: 15px;
+}
+
+.content-explanation__container {
+    margin-bottom: 35px;
+}
+
+.content-explanation__img {
+    width: 1080px;
+    height: 244px;
+    margin-top: 94px;
+}
+
+.recommendations {
+    margin-top: 150px;
+    margin-bottom: 150px;
+}
+
+.recommendations-title {
+    font-size: 50px;
+    font-family: 'Manrope';
+    font-weight: 500;
+    margin-bottom: 40px;
+}
+
+.recommendations-card {
+    width: 420px;
+    height: 260px;
+    border-radius: 20px;
+}
+
+.recommendations-card__text {
+    font-size: 30px;
+    font-family: 'Manrope';
+    font-weight: 400;
+    line-height: 40px;
+    padding: 110px 30px 30px 30px;
+}
+
+.card1 {
+    background-image: url(../images/card-1.png);
+}
+
+.card2 {
+    background-image: url(../images/card-2.png);
+}
+
+.card3 {
+    background-image: url(../images/card-3.png);
+}
+
+.recommendations-cards {
+    display: flex;
+    justify-content: space-between;
+}
