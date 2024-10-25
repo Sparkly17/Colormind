@@ -2,7 +2,7 @@
 
 О проекте: https://sparkly17.github.io/Colormind/about_project.html
 
-Главная страница: https://sparkly17.github.io/Colormind/home_page.html
+Главная страница: https://sparkly17.github.io/Colormind/home_%20page.html
 
 Страница статьи: https://sparkly17.github.io/Colormind/article.html
 
