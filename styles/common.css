@@ -1,3 +1,10 @@
+@font-face {
+    font-family: 'NAMU-1990';
+    src: url("../fonts/NAMU-1990.otf") format('opentype'),
+    url("../fonts/NAMU-1990.woff") format('woff'),
+    url("../fonts/NAMU-1990.woff2") format('woff2');
+}
+
 *{
     margin: 0;
 }
