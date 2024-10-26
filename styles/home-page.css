@@ -99,12 +99,6 @@
 }
 
 .articles-title {
-    @font-face {
-        font-family: 'NAMU-1990';
-        src: url("../fonts/NAU-1990.otf") format('opentype'),
-        url("../fonts/NAU-1990.woff") format('woff')
-        url("../fonts/NAU-1990.woff2") format('woff2');
-    }
     font-family: 'NAMU-1990';
     font-size: 80px;
     line-height: 88%;
