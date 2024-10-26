@@ -47,7 +47,9 @@
 .concept-items__idea-title {
     @font-face {
         font-family: 'NAMU-1990';
-        src: url("../fonts") format('opentype');
+        src: url("../fonts/NAMU-1990.otf") format('opentype'),
+        url("../fonts/NAMU-1990.woff") format('woff')
+        url("../fonts/NAMU-1990.woff2") format('woff2');
     }
     font-family: 'NAMU-1990';
     font-size: 80px;
@@ -63,7 +65,9 @@
 .concept-items__reason-title {
     @font-face {
         font-family: 'NAMU-1990';
-        src: url("../fonts") format('opentype');
+        src: url("../fonts/NAMU-1990.otf") format('opentype'),
+        url("../fonts/NAMU-1990.woff") format('woff')
+        url("../fonts/NAMU-1990.woff2") format('woff2');
     }
     font-family: 'NAMU-1990';
     font-size: 80px;
@@ -139,7 +143,9 @@
 .goal-items__goal-title {
     @font-face {
         font-family: 'NAMU-1990';
-        src: url("../fonts") format('opentype');
+        src: url("../fonts/NAMU-1990.otf") format('opentype'),
+        url("../fonts/NAMU-1990.woff") format('woff')
+        url("../fonts/NAMU-1990.woff2") format('woff2');
     }
     font-family: 'NAMU-1990';
     font-size: 80px;
